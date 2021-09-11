@@ -22,6 +22,7 @@ import org.activiti.api.model.shared.event.RuntimeEvent;
 
 public abstract class RuntimeEventImpl<ENTITY_TYPE, EVENT_TYPE extends Enum<?>> implements RuntimeEvent<ENTITY_TYPE, EVENT_TYPE> {
 
+
     private String id;
     private Long timestamp;
     private String processInstanceId;
